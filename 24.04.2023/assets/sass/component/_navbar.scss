@@ -1,0 +1,29 @@
+@use '../utils/mixin' as mixin;
+@use '../utils/variables' as variable;
+
+header{
+    display: flex;
+    justify-content: space-between;
+
+.top-left-part{
+    display: flex;
+    align-items: center;
+}
+
+.top-right-part{
+    display: flex;
+    align-items: center;
+    &-list{
+        list-style: none;
+        display: flex;
+         &-item{
+            margin-right: 7px;
+            button{
+                background-color: variable.$primaryBackgroundColor;
+                color: white;
+            }
+        }
+    }
+}
+
+}

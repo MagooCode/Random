@@ -1,0 +1,19 @@
+header {
+  display: flex;
+  justify-content: space-between;
+}
+header .top-left-part {
+  display: flex;
+  align-items: center;
+}
+header .top-right-part {
+  display: flex;
+  align-items: center;
+}
+header .top-right-part ul {
+  list-style: none;
+  display: flex;
+}
+header .top-right-part ul li {
+  margin-right: 7px;
+}
